@@ -443,14 +443,14 @@
 		/*background: url(../img/second_words.png) no-repeat;
 		background-size: 100% 100%;*/
 		left: 0.875rem;
-		top: 3rem;
-		transform: rotate(-45deg) scale(0.8);
+		top: 0rem;
+		transform: scale(0.8);
 		/*transform-style: preserve-3d;*/
 	}
 	.word .ori{
 		width: 14rem;
 		height: 0rem;
-		background: url(../img/second_words.png) no-repeat;
+		/*background: url(../img/second_words.png) no-repeat;*/
 		background-size: 14rem 14rem;
 		position: absolute;
 		left: 0;
@@ -473,7 +473,7 @@
 	.bottomText{
 		position: absolute;
 		width: 12.34375rem;
-		height: 5.84375rem;
+		height: 21.84375rem;
 		bottom: 2rem;
 		left: 1.828125rem;
 		box-sizing: border-box;
@@ -834,8 +834,8 @@
 	}
 	.contentUs img{
 		float: left;
-		width: 5.328125rem;
-		height: 5.328125rem;
+		width: 13.328125rem;
+    	height: 13.328125rem;
 		margin-left: 0.5rem;
 	}
 	.contentUs p{

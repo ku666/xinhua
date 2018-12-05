@@ -82,7 +82,7 @@ function action(){
 //			tl41.pause();
 			second();
 		}
-		if(swiper.activeIndex === 2){
+		/*if(swiper.activeIndex === 2){
 			
 			console.log(1);
 			
@@ -93,7 +93,7 @@ function action(){
 //			tl41.pause();
 			third();
 		}
-		if(swiper.activeIndex === 3){
+*/		if(swiper.activeIndex === 2){
 			
 //			tl.pause();
 //			tl2.pause();
@@ -101,7 +101,7 @@ function action(){
 //			tl3.pause();
 			forth();
 		}
-		if(swiper.activeIndex === 4){
+		if(swiper.activeIndex === 3){
 			
 //			tl.pause();
 //			tl2.pause();
@@ -239,7 +239,10 @@ function second () {
 	if(onoff2){
 		onoff2 = false;
 //			生成box中盒子
-		var str = "<div class='ori'></div>";
+		var str = `<div class='ori'>
+					<p>新华大舞台有梦您就来！</p>
+					<p>梦想由此启航</p>
+				   </div>`;
 		var colarr = ["#020e4e","#dbe3f3","#6581bf","#8da2d2","#ffffff","#6b86c3"]
 		var word = document.querySelector(".word");
 		for (var i = 0; i < 14; i++) {
